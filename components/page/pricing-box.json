@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_page_pricing_boxes",
+  "info": {
+    "name": "pricingBox",
+    "icon": "money-bill-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "totalPrice": {
+      "type": "integer",
+      "required": true
+    },
+    "numberInstallments": {
+      "type": "integer",
+      "required": true
+    },
+    "priceInstallment": {
+      "type": "integer",
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.button"
+    },
+    "benefits": {
+      "type": "richtext"
+    }
+  }
+}
